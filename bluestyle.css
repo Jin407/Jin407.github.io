@@ -1,8 +1,30 @@
 body{
-background-color: lightblue;
+    background-image: linear-gradient(to left, #1463F3, #84A4FC) ;
 }
 
-h1{
-color: navy;
-margin-left: 20-px;
+h1,p{
+    color: #1D2023;
+    margin-left: 20-px;
+}
+
+div{
+    color: #84A4FC;
+    margin-left: 20-px;  
+}
+
+#home{
+        /* Change font family */
+        font-family: Arial, sans-serif;
+    
+        /* Change font weight */
+        font-weight: bold;
+        
+        /* Change font style */
+        font-style: italic;
+        
+        /* Transform text to uppercase */
+        text-transform: uppercase;
+        
+        /* Change font size */
+        font-size: 24px;
 }
