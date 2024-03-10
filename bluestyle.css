@@ -3,30 +3,39 @@ body{
     
 }
 
-html{
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.center{
+  margin: auto;
+  margin-top: 150px;
+  width: 50%;
+  padding: 10px;
 }   
+
+.middle{
+  margin: auto;
+  margin-top: 400px;
+  width: 80%;
+  padding: 10px;
+  font-family: "Montserrat Thin";
+}
 
 p{
     color: #1D2023;
-    margin-left: 20-px;
-    text-align: center;
+    margin-left: 30px;
+    text-align: left;
     font-size: 20px;
+    font-weight:700;
 }
 
-div{
-    color: #84A4FC;
-    margin-left: 20-px;  
+h3{
+  font-size: 30px;
+  margin-left: 30px;
 }
+
 
 #home{
         color: #1D2023;
         /* Change font family */
-        font-family: "Helvetica Neue";
+        font-family: "Arial";
     
         /* Change font weight */
         font-weight: bold;
@@ -41,10 +50,11 @@ div{
 }
 
 #title{
+    color: #1D2023;
     text-align: center;
         
     /* Change font size */
-    font-size: 30px;
+    font-size: 20px;
 }
 
 /* Style the navigation bar */
@@ -52,47 +62,68 @@ div{
     background-color: #1D2023; /* Background color for the navigation bar */
     position: fixed; /* Position the navigation bar */
     top: 0; /* Align the navigation bar to the top of the viewport */
-    left: 0; /* Align the navigation bar to the right side of the viewport */
+    left: 20;
     display: flex; /* Use flexbox layout */
     flex-direction: column; /* Display the items vertically */
-    align-items: flex-start; /* Align items to the end (right) of the flex container */
+    align-items: center; /* Align items to the end (right) of the flex container */
     height:100%;
     width:10%;
   }
   
   /* Style the navigation links */
-  .rightnav a {
-    color: #CCD0D8; /* Text color for the links */
-    text-align: left; /* Align the text to the right */
-    padding: 14px 16px; /* Padding for the links (top and bottom, left and right) */
-    text-decoration: none; /* Remove underline from the links */
-  }
-  
-  /* Change the color of the links when hovered */
-  .rightnav a:hover {
-    background-color:  #CCD0D8; /* Text color for the links */
-    ; /* Background color when hovered */
-    color: #1D2023;
-    width: auto; /* Text color when hovered */
+.rightnav a {
+  color: #CCD0D8; /* Text color for the links */
+  text-align: center; /* Align the text to the right */
+  padding: 50px 0px; /* Padding for the links (top and bottom, left and right) */
+  text-decoration: none; /* Remove underline from the links */
+  width: 100%;
+}
+
+/* Change the color of the links when hovered */
+.rightnav a:hover {
+  background-color:  #CCD0D8; /* Text color for the links */
+  ; /* Background color when hovered */
+  color: #1D2023;
+  width: 100% /* Text color when hovered */
+}
+
+.rightnav a:hover + .glyphicon {
+  color: #1D2023; /* Change the color of the icon when the link is hovered */
+}
+
+@media only screen and (max-width: 600px) {
+  .topnav {
+    flex-direction: row; /* Change direction to horizontal for small screens */
+    justify-content: space-between; /* Add space between items */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Add padding */
+    height: auto; /* Allow height to adjust based on content */
   }
 
-  @media only screen and (max-width: 600px) {
-    .topnav {
-      flex-direction: row; /* Change direction to horizontal for small screens */
-      justify-content: space-between; /* Add space between items */
-      align-items: center; /* Center items vertically */
-      padding: 10px; /* Add padding */
-      height: auto; /* Allow height to adjust based on content */
-    }
-  
-    .topnav a {
-      text-align: center; /* Center align the text */
-      padding: 10px; /* Adjust padding */
-    }
-  
-    .topnav a i {
-      margin-right: 0; /* Remove margin for icons */
-    }
+  .topnav a {
+    text-align: center; /* Center align the text */
+    padding: 10px; /* Adjust padding */
   }
-  
-  
+
+  .topnav a i {
+    margin-right: 0; /* Remove margin for icons */
+  }
+}
+
+.email{
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.email i {
+  font-size: 50px; /* Set the font size of the icon (adjust as needed) */
+  color: white; /* Set the color of the icon */
+  margin-right: 10px; /* Add some space between the icon and text */
+}
+
+.email p {
+  color: #1D2023; /* Set the color of the text */
+  margin: 0; /* Remove default margin */
+}
+
+
