@@ -58,11 +58,11 @@ h3{
 }
 
 /* Style the navigation bar */
-.rightnav {
+.leftnav {
     background-color: #1D2023; /* Background color for the navigation bar */
     position: fixed; /* Position the navigation bar */
     top: 0; /* Align the navigation bar to the top of the viewport */
-    left: 20;
+    left: 0;
     display: flex; /* Use flexbox layout */
     flex-direction: column; /* Display the items vertically */
     align-items: center; /* Align items to the end (right) of the flex container */
@@ -71,7 +71,7 @@ h3{
   }
   
   /* Style the navigation links */
-.rightnav a {
+.leftnav a {
   color: #CCD0D8; /* Text color for the links */
   text-align: center; /* Align the text to the right */
   padding: 50px 0px; /* Padding for the links (top and bottom, left and right) */
@@ -80,14 +80,14 @@ h3{
 }
 
 /* Change the color of the links when hovered */
-.rightnav a:hover {
+.leftnav a:hover {
   background-color:  #CCD0D8; /* Text color for the links */
   ; /* Background color when hovered */
   color: #1D2023;
   width: 100% /* Text color when hovered */
 }
 
-.rightnav a:hover + .glyphicon {
+.leftnav a:hover + .glyphicon {
   color: #1D2023; /* Change the color of the icon when the link is hovered */
 }
 
