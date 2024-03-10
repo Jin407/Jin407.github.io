@@ -4,10 +4,12 @@
     <title>Home</title>
       <link rel="stylesheet" href="bluestyle.css">
       <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="twstylesheet">
   </head>
   <body>
     <div class="leftnav">
         <a class="home" href="#">Home</a>
+        <a class="home" href="#about">About</a>
         <a class="portfolio" href="#portfolio">Portfolio</a>
         <a class="contact" href="#contact">Contact</a>
     </div>
@@ -16,8 +18,8 @@
       <h2 id="title">Computer Science Student</h2>
     </div>
     <div class="middle">
-        <h3>Introduction</h3>
-        <p>Hi, I am currently studying at SIM(GE), University of Wollongong with a major on big data.
+        <h3 id="about">Introduction</h3>
+        <p>Hi, I am a student at SIM(GE), University of Wollongong with a major on Big Data.
           I studied Banking and Finance in Ngee Ann Polytechnic for my diploma.</p>
         <p>My exposure to both knowledge fields in finance and computer science has certainly broaden my horizens.
           Given the opportunity, I wish to work on implementing big data analytics in the financial sector to optimize
@@ -32,12 +34,13 @@
         <h3 id="portfolio">Projects</h3>
         <h3 id="contact">Contacts</h3>
         <div class="email">
-          <i class="material-icons">mail</i>
-          <p>Email: limjinan407@gmail.com</p>
+          <i class="material-icons" style="margin-left:25px">mail</i>
+          <a>Email: limjinan407@gmail.com</a>
         </div>
+        <button class="resume">
+          <i class="material-icons">download</i> <a>Download Resume</a>
+        </button>
     </div>
-
-    
     
     
   </body>
