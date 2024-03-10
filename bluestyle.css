@@ -87,25 +87,22 @@ h3{
   width: 100% /* Text color when hovered */
 }
 
-.leftnav a:hover + .glyphicon {
-  color: #1D2023; /* Change the color of the icon when the link is hovered */
-}
-
 @media only screen and (max-width: 600px) {
-  .topnav {
+  .leftnav {
     flex-direction: row; /* Change direction to horizontal for small screens */
     justify-content: space-between; /* Add space between items */
     align-items: center; /* Center items vertically */
     padding: 10px; /* Add padding */
-    height: auto; /* Allow height to adjust based on content */
+    height: auto;
+    left:0; /* Allow height to adjust based on content */
   }
 
-  .topnav a {
+  .leftnav a {
     text-align: center; /* Center align the text */
     padding: 10px; /* Adjust padding */
   }
 
-  .topnav a i {
+  .leftnav a i {
     margin-right: 0; /* Remove margin for icons */
   }
 }
