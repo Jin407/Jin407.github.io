@@ -118,10 +118,7 @@ hr{
   }
 
   .progress-container {
-    flex: 1;
-    width: 60%;
-    flex-basis: 50%;
-     /* Grow to fill available space */
+    margin-top: 5px;
   }
 }
 
