@@ -134,7 +134,7 @@ hr{
     text-align: center;
     line-height: 20px;
     color: black;
-    width: 0; /* Initial width set to 0 */
+    width: 60%; /* Initial width set to 0 */
     transition: width 0.5s;
      /* Add smooth transition effect */
   }
