@@ -1,18 +1,18 @@
 body{
-    background-image: linear-gradient(to left, #1463F3, #84A4FC) ;
+  background-image: linear-gradient(to bottom, #1463F3, #84A4FC) ;
     
 }
 
 .center{
   margin: auto;
-  margin-top: 150px;
-  width: 50%;
+  margin-top: 100px;
+  width: 100%;
   padding: 10px;
 }   
 
 .middle{
   margin: auto;
-  margin-top: 400px;
+  margin-top: 120px;
   width: 80%;
   padding: 10px;
   font-family: "Montserrat Thin";
@@ -20,7 +20,7 @@ body{
 
 p{
     color: #1D2023;
-    margin-left: 30px;
+    margin-left: 60px;
     text-align: left;
     font-size: 15px;
     font-weight:500;
@@ -28,7 +28,18 @@ p{
 
 h3{
   font-size: 30px;
-  margin-left: 30px;
+  margin-left: 60px;
+}
+
+h4{
+  font-size: 25px;
+}
+
+hr{
+    border: none; /* Remove default border */
+    height: 1px; /* Set the height of the divider */
+    background-color: black; /* Set the background color */
+    margin: 20px 0;
 }
 
 
@@ -107,46 +118,29 @@ h3{
   }
 }
 
-.email{
-  display: flex; /* Use flexbox layout */
-  align-items: center; /* Align items vertically in the center */
+.contact-icons {
+  display: flex;
 }
 
-.email i {
-  font-size: 50px; /* Set the font size of the icon (adjust as needed) */
-  color: black; /* Set the color of the icon */
-}
-
-.email a {
-  margin: 0; /* Remove default margin */
-  color: #1D2023;
-  margin-left: 30px;
-  text-align: left;
-  font-size: 20px;
-  font-weight:700;
-}
-
-.linkedin{
-  display: flex; /* Use flexbox layout */
-  align-items: center; /* Align items vertically in the center */
-  text-decoration: none;
-  margin: 0; /* Remove default margin */
-  color: #1D2023;
-  font-size: 20px;
-  font-weight:700;
+/* Style for each icon container */
+.contact-icons > div {
+  margin-right: -50px; /* Adjust spacing between icons */
 }
 
 
-.resume {
-  background-color: black; /* Default background color */
-  color: white; /* Default text color */
-  padding: 15px 60px; /* Adjust padding as needed */
+.resume { /* Default text color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 60px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
-  align-items: center;
-  margin-left:30px;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: grey; /* Default background color */
+  color: white; /* Default text color */
+  margin: auto; 
+  margin-top: 100px;
 }
 
 /* Change button styles on hover */
@@ -157,15 +151,68 @@ h3{
 
 .resume a{
   display: flex;
-  margin-left: 30px;
   align-items: center;
   font-size: 20px;
-  font-weight:700;
+  font-weight: 700;
+  color: inherit; /* Inherit text color from parent */
+  text-decoration: none;
 }
 
 .resume i{
   font-size:30px;
   bottom:0;
 }
+
+.skill-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px;
+}
+
+/* Style for the skill label */
+.skill-label {
+  flex: 1; /* Grow to fill available space */
+  font-size: 16px;
+  margin-right: -300px; /* Add spacing between label and progress bar */
+}
+
+/* Style for the progress bar container */
+.progress-container {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  height: 20px;
+  overflow: hidden;
+  flex: 2;
+   /* Grow to fill available space */
+}
+
+/* Style for the progress bar */
+.progress-bar {
+  background-color: #808088; /* Default bar color */
+  height: 100%;
+  text-align: center;
+  line-height: 20px;
+  color: black;
+  width: 0; /* Initial width set to 0 */
+  transition: width 0.5s;
+   /* Add smooth transition effect */
+}
+
+.skills {
+  display: flex;
+}
+
+.skill {
+  text-align: left;
+  flex: 1;
+  margin-left: 60px; /* Add margin to the right side of each skill */
+}
+
+.skill i {
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
 
 
