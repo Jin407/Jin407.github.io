@@ -116,6 +116,28 @@ hr{
   .leftnav a i {
     margin-right: 0; /* Remove margin for icons */
   }
+
+  .progress-container {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    height: 20px;
+    width: 60%;
+    overflow: hidden;
+    flex: 2;
+     /* Grow to fill available space */
+  }
+  
+  /* Style for the progress bar */
+  .progress-bar {
+    background-color: #808088; /* Default bar color */
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+    color: black;
+    width: 0; /* Initial width set to 0 */
+    transition: width 0.5s;
+     /* Add smooth transition effect */
+  }
 }
 
 .contact-icons {
