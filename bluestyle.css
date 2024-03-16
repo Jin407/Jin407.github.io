@@ -118,7 +118,8 @@ hr{
   }
 
   .progress-container {
-    margin-top: 5px;
+    flex: 1;
+    background-color: black;
   }
 }
 
@@ -186,7 +187,6 @@ hr{
   border-radius: 4px;
   height: 20px;
   overflow: hidden;
-  flex-basis: 70%;
   flex: 2;
    /* Grow to fill available space */
 }
