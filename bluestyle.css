@@ -99,27 +99,27 @@ hr{
 }
 
 @media only screen and (max-width: 600px) {
+  /*
   .leftnav {
-    flex-direction: row; /* Change direction to horizontal for small screens */
-    justify-content: space-between; /* Add space between items */
-    align-items: center; /* Center items vertically */
-    padding: 10px; /* Add padding */
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
     height: auto;
-    left:0; /* Allow height to adjust based on content */
+    left:0; 
   }
 
   .leftnav a {
-    text-align: center; /* Center align the text */
-    padding: 10px; /* Adjust padding */
+    text-align: center;
+    padding: 10px;
   }
 
   .leftnav a i {
-    margin-right: 0; /* Remove margin for icons */
-  }
+    margin-right: 0;
+  }*/
 
   .progress-container {
     flex: 1;
-    background-color: black;
   }
 }
 
