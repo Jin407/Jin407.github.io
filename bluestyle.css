@@ -164,7 +164,6 @@ hr{
   height: 20px;
   overflow: hidden;
   flex: 1;
-  margin-top: 5px;
 }
 
 /* Style for the progress bar */
@@ -193,6 +192,19 @@ hr{
   font-size: 60px;
   margin-bottom: 10px;
   margin-right: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  
+  body{
+    background-image: olive;
+    color: black
+  }
+
+  .progress-container {
+    flex: 1;
+    color: blueviolet;
+  }
 }
 
 
