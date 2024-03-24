@@ -1,7 +1,8 @@
-body{
-  background-image: linear-gradient(to bottom, #1463F3, #84A4FC) ;
-    
+
+body{ 
+  background-image: linear-gradient(to bottom, #accbee 0%, #e7f0fd 100%);
 }
+
 
 .center{
   margin: auto;
