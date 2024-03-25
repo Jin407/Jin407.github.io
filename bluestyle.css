@@ -195,19 +195,6 @@ hr{
   margin-right: 20px;
 }
 
-@media screen and (max-width: 480px) {
-  
-  body{
-    background-image: olive;
-    color: black
-  }
-
-  .progress-container {
-    flex: 1;
-    color: blueviolet;
-  }
-}
-
 .baccaratVideoContainer{
   display: flex;
   align-items: center; /* Center content vertically */
