@@ -208,5 +208,21 @@ hr{
   }
 }
 
+.baccaratVideoContainer{
+  display: flex;
+  align-items: center; /* Center content vertically */
+}
+
+video {
+  width: 50%;
+  margin-left: 60px; /* Adjust the width of the video */
+}
+
+b {
+  width: 30%; /* Adjust the width of the text */
+  font-size: 15px;
+  margin-left: 30px;
+}
+
 
 
