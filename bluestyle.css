@@ -209,6 +209,7 @@ b {
   width: 30%; /* Adjust the width of the text */
   font-size: 15px;
   margin-left: 30px;
+  display: block;
 }
 
 
