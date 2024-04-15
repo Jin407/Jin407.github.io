@@ -1,3 +1,1 @@
-#hello-world
-Hello World repository for git tutorial
-Test
+Resume website coded with html and css and hosted on GitHub Pages
